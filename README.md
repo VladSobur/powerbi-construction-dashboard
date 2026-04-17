@@ -86,10 +86,6 @@ This dashboard provides a clear view of project financial health, helping stakeh
 * Compare project efficiency
 * Make data-driven decisions
 
-## Next Steps / Improvements
-* Add forecasting (expected final cost vs budget)
-* Introduce project status tracking (Completed / In Progress / Delayed)
-* Expand analysis to vendor or trade-level cost breakdown
 
 ## Author
 
