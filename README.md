@@ -51,32 +51,6 @@ The analysis reveals that:
 
 The dashboard enables stakeholders to quickly identify financial risks, monitor budget utilization, and prioritize corrective actions.
 
-## Key Features
-### Financial KPIs
-* Total Spend vs Total Budget
-* Budget Variance ($)
-* Budget Used %
-* Average Completion %
-
-### Performance Analysis
-* Spend vs Budget trend over time
-* Top 5 projects by spend
-* Top 5 projects by remaining budget
-
-### Risk Identification
-* Projects exceeding budget
-* Budget variance analysis
-
-### Cost Efficiency
-* Cost per Square Foot ($/Sq Ft)
-* Top 5 most expensive projects by unit cost
-
-### Interactive Filtering
-* Project Type
-* Project Manager
-* Project Name
-* Year / Time filtering
-
 ## Data Model
 The dashboard is built using a star schema:
 * **Fact Table**
@@ -86,16 +60,6 @@ The dashboard is built using a star schema:
   * `Dim_Project`: project attributes (type, manager, size, status)
   * `DateTable`: time intelligence (year, month, year-month)
 
-## Key Measures (DAX)
-
-Examples of core metrics:
-* Total Spend
-* Total Budget
-* Budget Variance
-* Budget Used %
-* Budget Remaining %
-* Cost per Sq Ft
-* Project Count
 
 ## Tools & Technologies
 * Power BI
@@ -103,20 +67,7 @@ Examples of core metrics:
 * Power Query (data transformation)
 * Star Schema data modeling
 
-## What I Demonstrate in This Project
-* Building a clean and scalable data model
-* Writing business-driven DAX measures
-* Designing user-friendly and interactive dashboards
-* Translating business requirements into data solutions
-* Applying best practices in visualization and layout
 
-## Outcome
-
-This dashboard provides a clear view of project financial health, helping stakeholders:
-* Identify overspending early
-* Monitor budget utilization
-* Compare project efficiency
-* Make data-driven decisions
 
 
 ## Author
