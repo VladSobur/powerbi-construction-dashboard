@@ -1,7 +1,7 @@
 
 # Project Budget Performance & Cost Efficiency Dashboard (Power BI)
 
-Construction-focused Power BI dashboard analyzing project budget performance, cost variance, and spending efficiency. 
+Power BI dashboard analyzing construction project budget performance, focusing on cost overruns, budget utilization, and financial efficiency across projects. 
 The report highlights projects exceeding budget and provides visibility into financial performance across the portfolio.
 
 <img width="1433" height="799" alt="dashboard-screenshot png" src="https://github.com/user-attachments/assets/4fe29d65-b016-46c3-b045-88be45ae0b4d" />
@@ -55,6 +55,7 @@ The dashboard enables stakeholders to quickly identify financial risks, monitor 
 The dashboard is built using a star schema:
 * **Fact Table**
   * `Fact_Cost`: stores actual costs and budget data
+The model is structured using a star schema to enable efficient filtering, aggregation, and scalable reporting across project dimensions.
     
 * **Dimension Tables**
   * `Dim_Project`: project attributes (type, manager, size, status)
@@ -73,5 +74,5 @@ The dashboard is built using a star schema:
 ## Author
 
 Vladimir Sobur
-Data Analyst | Power BI | SQL
+Vladimir Sobur – Data Analyst (Power BI | SQL | Data Modeling)
 
